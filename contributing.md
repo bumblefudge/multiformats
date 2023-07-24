@@ -30,7 +30,7 @@ reviewers:
 The values in multiformats are investments of finite namespace towards
 broadly-useful utilities, and many of the current entries are already
 foundational low-level building blocks for both data and network layers and are
-used in IPFS, IPLD, libp2p, and beyond. As a result, it is particularly
+used in [IPFS](https://ipfs.tech), [IPLD](https://ipld.io), [libp2p](https://libp2p.io/), and beyond. As a result, it is particularly
 important that these values be managed in such a way that guarantees that they
 are maximally reliable, interoperable, useful, and safe. This document captures
 the process that is used to manage the multiformats specifications and the
@@ -92,10 +92,10 @@ IPFS [Code of Conduct][]; some of this work may move to standards bodies in the
 future and be bound as well by the relevant codes of conduct there.
 
 If you're interested in proposing a new format (in addition to multihash,
-multistream, and so on), [open an
+multibase, and so on), [open an
 issue](https://github.com/multiformats/multiformats/issues/new) in this
 repository, explaining the name of the format, what it is for, and why you think
-it should become one ~~of~~ the multiformats. Pointing to any existing
+it should become one *of* the multiformats. Pointing to any existing
 implementations would also be great, if there are any. Here, taking a glance at
 the Registry  Governance sections of the [contributing
 document](contributing.md) may help you contextualize the limits of sharing a
@@ -104,7 +104,7 @@ over time.
 
 If you want to implement a multiformat in a new language, open an issue in the
 main repository for the relevant multiformat: for instance, if you want to write
-`rust-multicodec`, then open an issue in the multiformats/multicodec repository.
+`rust-multibase`, then [open an issue](https://github.com/multiformats/multibase/issues/new) in the `multiformats/multibase` repository.
 This will allow others to know that you're working on it, and potentially join
 in the effort.
 
